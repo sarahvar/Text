@@ -1,10 +1,3 @@
-2) Interface utilisateur
+3) Traitement sur les textes
 
-Faire une petite application de gestion de tickets de caisse (date,intitulé,montant) :
-- liste des tickets
-- création
-- modification
-- suppression
-- total par mois
-- total général
-* contrainte : Il ne peut y avoir 2 tickets avec la même date
+- Lire un fichier texte contenant un article quelconque, et afficher tous les mots du texte, un mot sur chaque ligne
