@@ -14,7 +14,7 @@ const App = () => {
                 const text = await response.text();
 
                 // Split the text into words and update the state
-                const wordList = text.match(/\b\w+\b/g) || [];
+                const wordList = text.match(/[a-zA-ZÀ-ÿ0-9]+/g) || [];
                 setWords(wordList);
             } catch (error) {
                 console.error('Error fetching the file:', error);
@@ -37,4 +37,3 @@ const App = () => {
 };
 
 export default App;
-
