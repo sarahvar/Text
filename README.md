@@ -1,8 +1,4 @@
-3) Traitement sur les textes
-
-- Lire un fichier texte contenant un article quelconque, et afficher tous les mots du texte, un mot sur chaque ligne
-
-- Projet Vite
+## Projet Vite
   
 Ce projet utilise Vite, un bundler rapide pour le développement web moderne.
 
@@ -50,3 +46,6 @@ npm run build : Crée une version optimisée pour la production.
 npm run preview : Teste la version de production localement.
 Licence
 Distribué sous la licence MIT.
+3) Traitement sur les textes
+
+- Lire un fichier texte contenant un article quelconque, et afficher tous les mots du texte, un mot sur chaque ligne
